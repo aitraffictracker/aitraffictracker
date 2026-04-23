@@ -2,9 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-**Unmask AI referral traffic that Google Analytics calls "Direct."**
+**GA4 catches *some* AI traffic. We help with the rest—privacy‑first.**
 
-Lightweight, privacy‑first JavaScript tracker for ChatGPT, Perplexity, Claude, and more. No cookies. No personal data. GDPR‑friendly.
+A lightweight, 2 KB JavaScript tracker that identifies visits from ChatGPT, Perplexity, Claude and other AI chatbots.  
+
+No cookies. No personal data. GDPR‑friendly.  
+
+It won’t see what’s fundamentally invisible, but it will surface every AI referral it *can* detect, and give you a clean dashboard (coming soon) to focus solely on AI traffic.
 
 ## 🚀 Usage
 
@@ -24,9 +28,16 @@ data-api Optional. Use only if self‑hosting the backend. Defaults to our manag
 🏠 Self‑hosted – Add data-api="https://your-server.com/track". Backend repo coming soon.
 
 ## 🛡️ Privacy
-We collect only: page path, AI source, and your site-id.
+We store only:
 
-Never: IP addresses, cookies, or personal data.
+Page path (e.g. /blog/sourdough)
+
+AI source (e.g. ChatGPT)
+
+Your anonymous site‑id
+
+We never collect: IP addresses, cookies, device fingerprints, or any personal data.
+No consent banner needed.
 
 ## 🚧 Status
 ✅ Tracker script – ready
