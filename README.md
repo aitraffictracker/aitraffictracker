@@ -2,11 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-**GA4 catches *some* AI traffic. We help with the rest—privacy‑first.**
+Google Analytics (GA4) requires cookies, custom reports, and still misses a chunk of AI traffic.  
 
-A lightweight, 2 KB JavaScript tracker that identifies visits from ChatGPT, Perplexity, Claude and other AI chatbots.  
+This 2 KB script does what it can with one line – no cookies, no IPs, no complexity.
 
-No cookies. No personal data. GDPR‑friendly.  
+A lightweight, privacy‑first JavaScript tracker for ChatGPT, Perplexity, Claude, Gemini, Copilot and more.  
+
+Open source (MIT), served via global CDN.
 
 It won’t see what’s fundamentally invisible, but it will surface every AI referral it *can* detect, and give you a clean dashboard (coming soon) to focus solely on AI traffic.
 
