@@ -20,9 +20,11 @@ Add this to your `<head>`:
 <script src="https://cdn.jsdelivr.net/gh/aitraffictracker/aitraffictracker@1.0.0/tracker.js" data-site-id="YOUR_SITE_ID" async></script>
 ```
 
-data-site-id Any unique ID for your site (e.g., myblog or your domain name, if you are self-hosting. Otherwise, we will provide you a site-id. Required. 
+**data-site-id**
+Any unique ID for your site (e.g., myblog or your domain name, if you are self-hosting. Otherwise, we will provide you a site-id. Required. 
 
-data-api Optional. Use only if self‑hosting the backend. Defaults to our managed service (coming soon).
+**data-api**
+Use only if self‑hosting the backend. Defaults to our managed service (coming soon). Optional
 
 ## 🛣️ Two Paths
 ☁️ Hosted (coming soon) – Just add the script. We'll handle the rest.
@@ -39,6 +41,7 @@ AI source (e.g. ChatGPT)
 Your anonymous site‑id
 
 We never collect: IP addresses, cookies, device fingerprints, or any personal data.
+
 No consent banner needed.
 
 ## 🚧 Status
@@ -50,6 +53,6 @@ No consent banner needed.
 
 ## ⭐ Star this repo to follow along
 
-Links: Landing Page · Backend Repo (soon)
+Links: [Landing Page](https://aitraffic.app) · Backend Repo (soon)
 
-Built in public by @aitraffictracker
+Built in public by [@aitraffictracker](https://github.com/aitraffictracker)
